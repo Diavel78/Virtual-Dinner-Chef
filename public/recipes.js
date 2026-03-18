@@ -3468,6 +3468,221 @@ const RECIPE_DATABASE = [
       "Salt"
     ],
     instructions: "Sauté diced onion and bell peppers in oil until soft. Add garlic, ginger, curry powder, and chili powder, cook 1 min. Add grated carrots and diced tomatoes, cook 10 min. Add drained kidney beans, simmer 10 more min. Season with salt. Serve warm or at room temperature as a side dish."
+  },
+
+  // ========== INDIAN (Additional) ==========
+  {
+    name: "Matar Paneer",
+    category: "Indian",
+    type: "Main",
+    servings: 4,
+    time: "35 min",
+    ingredients: [
+      {n: "Paneer", a: "14 oz cubed"},
+      {n: "Peas", a: "1.5 cups frozen"},
+      {n: "Onion", a: "1 large"},
+      {n: "Garlic", a: "4 cloves"},
+      {n: "Ginger", a: "1 tbsp"},
+      {n: "Crushed Tomatoes", a: "14 oz can"},
+      {n: "Vegetable Oil", a: "3 tbsp"},
+      {n: "Heavy Cream", a: "2 tbsp"},
+      {n: "Garam Masala", a: "1.5 tsp"},
+      {n: "Cumin", a: "1 tsp"},
+      {n: "Turmeric", a: "1/2 tsp"},
+      {n: "Chili Powder", a: "1/2 tsp"},
+      {n: "Cilantro", a: "for garnish"},
+      "Salt"
+    ],
+    instructions: "Lightly pan-fry paneer cubes in oil until golden on each side, set aside. In the same pan, cook cumin seeds 30 seconds, add diced onion and cook until golden brown. Add garlic and ginger, cook 2 min. Add crushed tomatoes, turmeric, chili powder, and salt. Simmer 10 minutes until sauce thickens. Stir in peas and cook 5 minutes. Add paneer and cream, simmer 3 more minutes. Finish with garam masala and garnish with cilantro. Serve with naan or rice."
+  },
+  {
+    name: "Saag Aloo",
+    category: "Indian",
+    type: "Side",
+    servings: 4,
+    time: "30 min",
+    ingredients: [
+      {n: "Spinach", a: "10 oz fresh"},
+      {n: "Potatoes", a: "3 medium"},
+      {n: "Onion", a: "1"},
+      {n: "Garlic", a: "3 cloves"},
+      {n: "Ginger", a: "1 tsp grated"},
+      {n: "Vegetable Oil", a: "2 tbsp"},
+      {n: "Mustard Seeds", a: "1 tsp"},
+      {n: "Turmeric", a: "1/2 tsp"},
+      {n: "Cumin", a: "1 tsp"},
+      {n: "Garam Masala", a: "1/2 tsp"},
+      {n: "Chili Powder", a: "1/4 tsp"},
+      "Salt"
+    ],
+    instructions: "Boil diced potatoes until just tender, about 10 minutes, drain. Heat oil in a large pan over medium heat. Add mustard seeds and wait for them to pop, about 30 seconds. Add sliced onion and cook until translucent. Add garlic, ginger, turmeric, cumin, and chili powder, cook 1 minute. Add potatoes and toss to coat in spices. Add spinach in batches, stirring until wilted. Season with salt and garam masala. Cook 3 more minutes until flavors meld. Serve as a side with naan or rice."
+  },
+
+  // ========== ETHIOPIAN (Additional) ==========
+  {
+    name: "Gomen",
+    category: "Ethiopian",
+    type: "Side",
+    servings: 4,
+    time: "30 min",
+    ingredients: [
+      {n: "Collard Greens", a: "1 lb"},
+      {n: "Onion", a: "1 large"},
+      {n: "Garlic", a: "4 cloves"},
+      {n: "Ginger", a: "1 tbsp"},
+      {n: "Jalapeño", a: "1"},
+      {n: "Butter", a: "3 tbsp"},
+      {n: "Vegetable Oil", a: "1 tbsp"},
+      {n: "Turmeric", a: "1/2 tsp"},
+      {n: "Cardamom", a: "1/4 tsp ground"},
+      "Salt",
+      "Black Pepper"
+    ],
+    instructions: "Strip collard green leaves from stems, roll and slice into thin ribbons. Blanch in boiling salted water 3 minutes, drain and squeeze out excess water. Sauté diced onion in butter and oil over medium heat until translucent, about 8 minutes. Add garlic, ginger, and minced jalapeño, cook 2 minutes. Stir in turmeric and cardamom. Add the drained collard greens and toss well. Cook, stirring occasionally, for 10 minutes until greens are tender and well seasoned. Season with salt and black pepper."
+  },
+  {
+    name: "Tibs",
+    category: "Ethiopian",
+    type: "Main",
+    servings: 4,
+    time: "25 min",
+    ingredients: [
+      {n: "Flank Steak", a: "1.5 lbs"},
+      {n: "Red Onion", a: "1 large"},
+      {n: "Jalapeño", a: "2"},
+      {n: "Tomatoes", a: "2 medium"},
+      {n: "Garlic", a: "3 cloves"},
+      {n: "Butter", a: "3 tbsp"},
+      {n: "Berbere Spice", a: "2 tsp"},
+      {n: "Dried Rosemary", a: "1 tsp"},
+      {n: "Injera", a: "for serving"},
+      "Salt",
+      "Black Pepper"
+    ],
+    instructions: "Slice steak into thin strips against the grain, season with salt and pepper. Heat a large pan or wok over very high heat. Melt butter until sizzling. Add beef in a single layer and sear without stirring 2 minutes until browned. Add sliced red onion and jalapeño, stir-fry 3 minutes. Add garlic, berbere spice, and rosemary, cook 1 minute. Add diced tomatoes and toss everything together. Cook 2 more minutes until tomatoes soften slightly but still hold shape. Serve immediately on injera."
+  },
+  {
+    name: "Azifa",
+    category: "Ethiopian",
+    type: "Appetizer",
+    servings: 4,
+    time: "35 min",
+    ingredients: [
+      {n: "Green Lentils", a: "1 cup"},
+      {n: "Red Onion", a: "1/2 medium"},
+      {n: "Jalapeño", a: "1"},
+      {n: "Lemon", a: "2, juiced"},
+      {n: "Olive Oil", a: "3 tbsp"},
+      {n: "Mustard Seeds", a: "1 tsp"},
+      {n: "Turmeric", a: "1/4 tsp"},
+      {n: "Cilantro", a: "2 tbsp chopped"},
+      "Salt",
+      "Black Pepper"
+    ],
+    instructions: "Cook green lentils in boiling salted water with turmeric for 20 minutes until tender but holding their shape. Drain and spread to cool completely. Finely dice red onion and jalapeño. Whisk lemon juice, olive oil, mustard seeds, salt, and pepper to make dressing. Combine cooled lentils, onion, jalapeño, and cilantro in a bowl. Pour dressing over and toss well. Let sit 10 minutes for flavors to meld. Serve at room temperature or chilled as a starter."
+  },
+
+  // ========== WEST AFRICAN (Additional) ==========
+  {
+    name: "Egusi Soup",
+    category: "West African",
+    type: "Soup",
+    servings: 4,
+    time: "60 min",
+    ingredients: [
+      {n: "Chicken Thighs", a: "1.5 lbs"},
+      {n: "Egusi Melon Seeds", a: "1 cup ground"},
+      {n: "Spinach", a: "8 oz"},
+      {n: "Crushed Tomatoes", a: "14 oz can"},
+      {n: "Bell Pepper", a: "1"},
+      {n: "Onion", a: "1"},
+      {n: "Palm Oil", a: "4 tbsp"},
+      {n: "Garlic", a: "3 cloves"},
+      {n: "Chili Powder", a: "1 tsp"},
+      {n: "Crayfish Powder", a: "1 tbsp"},
+      "Salt",
+      "Black Pepper"
+    ],
+    instructions: "Season chicken and simmer in 3 cups water with garlic, half the onion, salt, and pepper until cooked through, about 25 minutes. Reserve broth. Blend crushed tomatoes with bell pepper and remaining onion. Heat palm oil in a large pot over medium heat. Fry the tomato blend, stirring often, for 15 minutes until oil rises. Mix ground egusi with a little water to form a thick paste. Drop spoonfuls into the tomato sauce and fry, stirring, 10 minutes until toasted. Pour in reserved chicken broth and add chicken pieces. Stir in crayfish powder and chili powder. Simmer 10 minutes. Add spinach, cook 5 more minutes. Season with salt. Serve with fufu or rice."
+  },
+  {
+    name: "Kelewele",
+    category: "West African",
+    type: "Appetizer",
+    servings: 4,
+    time: "20 min",
+    ingredients: [
+      {n: "Ripe Plantains", a: "3 large"},
+      {n: "Ginger", a: "2 tsp ground"},
+      {n: "Chili Powder", a: "1 tsp"},
+      {n: "Vegetable Oil", a: "2 cups for frying"},
+      {n: "Cinnamon", a: "1/4 tsp"},
+      {n: "Nutmeg", a: "1/4 tsp"},
+      "Salt"
+    ],
+    instructions: "Peel plantains and cut into 1-inch cubes. Combine ground ginger, chili powder, cinnamon, nutmeg, and salt in a bowl. Toss plantain cubes in the spice mixture until well coated. Heat vegetable oil in a deep pan to 350°F — oil should be at least 1 inch deep. Fry plantain pieces in batches for 3-4 minutes per side until deep golden and slightly crispy on the outside. Do not overcrowd the pan. Drain on paper towels. Serve hot as a street-food snack or side dish alongside grilled meats."
+  },
+
+  // ========== SOUTH AFRICAN (Additional) ==========
+  {
+    name: "Umngqusho",
+    category: "South African",
+    type: "Side",
+    servings: 6,
+    time: "120 min",
+    ingredients: [
+      {n: "Samp", a: "2 cups"},
+      {n: "Black-Eyed Peas", a: "1 cup"},
+      {n: "Onion", a: "1"},
+      {n: "Butter", a: "2 tbsp"},
+      {n: "Garlic", a: "2 cloves"},
+      {n: "Chili Powder", a: "1/2 tsp"},
+      "Salt",
+      "Black Pepper"
+    ],
+    instructions: "Soak samp and black-eyed peas together in cold water for at least 4 hours or overnight, then drain. Place in a large pot, cover with fresh water and bring to boil. Reduce heat, cover, and cook 90 minutes until both are completely soft and creamy, adding more water as needed. Drain any excess water. In a separate pan, sauté diced onion and garlic in butter until golden. Add chili powder and cook 1 minute. Stir the onion mixture into the cooked samp and beans. Season generously with salt and black pepper. Serve as a hearty side with braai meats or stews. Note: Samp is dried cracked maize kernels, available at African grocery stores."
+  },
+  {
+    name: "Malva Pudding",
+    category: "South African",
+    type: "Dessert",
+    servings: 8,
+    time: "55 min",
+    ingredients: [
+      {n: "Flour", a: "1.5 cups"},
+      {n: "Sugar", a: "1 cup"},
+      {n: "Eggs", a: "2"},
+      {n: "Butter", a: "4 tbsp"},
+      {n: "Milk", a: "1 cup"},
+      {n: "Apricot Jam", a: "2 tbsp"},
+      {n: "Balsamic Vinegar", a: "1 tbsp"},
+      {n: "Baking Soda", a: "1 tsp"},
+      {n: "Heavy Cream", a: "1 cup"},
+      {n: "Brown Sugar", a: "3/4 cup"},
+      {n: "Vanilla Extract", a: "1 tsp"}
+    ],
+    instructions: "Preheat oven to 350°F. Beat eggs and 1 cup sugar until pale and thick. Melt 2 tbsp butter with apricot jam and stir into egg mixture. Combine flour and baking soda, fold in alternately with milk. Stir in vinegar. Pour into a greased 9x13 baking dish. Bake 35-40 minutes until deep golden brown and a skewer comes out clean. While pudding bakes, make the sauce: heat heavy cream, brown sugar, remaining 2 tbsp butter, and vanilla together until sugar fully dissolves. As soon as the pudding comes out of the oven, poke holes across the surface and slowly pour the entire hot sauce over it — it soaks in, making the pudding incredibly moist and rich. Serve warm with cream or vanilla ice cream."
+  },
+  {
+    name: "Boerewors Braai Rolls",
+    category: "South African",
+    type: "Main",
+    servings: 4,
+    time: "20 min",
+    ingredients: [
+      {n: "Boerewors Sausage", a: "2 lbs coil"},
+      {n: "Onion", a: "2"},
+      {n: "Tomatoes", a: "3"},
+      {n: "Jalapeño", a: "1"},
+      {n: "Vegetable Oil", a: "1 tbsp"},
+      {n: "Paprika", a: "1 tsp"},
+      {n: "Crushed Coriander Seeds", a: "1 tsp"},
+      {n: "Hot Dog Rolls", a: "4"},
+      {n: "Apricot Chutney", a: "for serving"},
+      "Salt",
+      "Black Pepper"
+    ],
+    instructions: "Keep boerewors in its coil and secure with skewers. Cook over medium-high heat on a braai or grill pan for 6-8 minutes per side, turning once, until the casing is browned and crispy but not burst. While the sausage grills, finely dice tomatoes and onion together with minced jalapeño, oil, paprika, crushed coriander, salt, and pepper to make a fresh relish called sheba. Once boerewors is done, rest 3 minutes before slicing. Serve in toasted rolls topped with sheba and a spoonful of apricot chutney. Note: Boerewors is a South African beef-and-pork sausage spiced with coriander, available at specialty butchers."
   }
 
 ];
