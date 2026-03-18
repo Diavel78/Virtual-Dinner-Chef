@@ -1245,6 +1245,553 @@ const RECIPE_DATABASE = [
       "Fresh Berries"
     ],
     instructions: "Sprinkle gelatin over cold milk, let bloom 5 min. Heat cream and sugar until simmering. Remove from heat, stir in gelatin until dissolved. Add vanilla. Pour into ramekins or glasses. Chill 4+ hours until set. Serve topped with fresh berries."
+  },
+
+  // ========== JAPANESE ==========
+  {
+    name: "Tonkotsu Ramen",
+    category: "Japanese",
+    type: "Main",
+    servings: 4,
+    time: "45 min",
+    ingredients: [
+      {n: "Ramen Noodles", a: "4 servings"},
+      {n: "Pork Shoulder", a: "1 lb"},
+      {n: "Eggs", a: "4"},
+      {n: "Soy Sauce", a: "3 tbsp"},
+      {n: "Miso Paste", a: "2 tbsp"},
+      {n: "Garlic", a: "4 cloves"},
+      {n: "Ginger", a: "1 tbsp"},
+      {n: "Sesame Oil", a: "1 tbsp"},
+      {n: "Green Onions", a: "4"},
+      {n: "Corn", a: "1 cup"},
+      {n: "Pork Broth", a: "6 cups"},
+      "Nori"
+    ],
+    instructions: "Simmer pork broth with garlic, ginger, miso paste, and soy sauce for 20 minutes. Slice pork shoulder thin and pan-fry until caramelized. Soft-boil eggs 6.5 minutes, then marinate in soy sauce and water. Cook ramen noodles per package. Assemble bowls: noodles, rich broth, pork slices, halved marinated egg, corn, green onions, sesame oil drizzle, and nori."
+  },
+  {
+    name: "Chicken Katsu",
+    category: "Japanese",
+    type: "Main",
+    servings: 4,
+    time: "35 min",
+    ingredients: [
+      {n: "Chicken Breast", a: "4 pieces"},
+      {n: "Flour", a: "1/2 cup"},
+      {n: "Eggs", a: "2"},
+      {n: "Panko Breadcrumbs", a: "2 cups"},
+      {n: "Vegetable Oil", a: "1/2 cup"},
+      {n: "Soy Sauce", a: "2 tbsp"},
+      {n: "Cabbage", a: "2 cups shredded"},
+      {n: "Rice", a: "for serving"},
+      {n: "Tonkatsu Sauce", a: "4 tbsp"},
+      "Salt",
+      "Black Pepper"
+    ],
+    instructions: "Pound chicken breasts to even 1/2-inch thickness. Season with salt and pepper. Set up breading station: flour, beaten eggs, panko breadcrumbs. Coat each piece thoroughly. Shallow-fry in vegetable oil over medium-high heat 3-4 minutes per side until deep golden and cooked through. Drain on paper towels. Slice diagonally. Serve over steamed rice with shredded cabbage and tonkatsu sauce."
+  },
+  {
+    name: "Salmon Teriyaki Donburi",
+    category: "Japanese",
+    type: "Main",
+    servings: 4,
+    time: "30 min",
+    ingredients: [
+      {n: "Salmon Fillets", a: "4 pieces"},
+      {n: "Soy Sauce", a: "3 tbsp"},
+      {n: "Honey", a: "2 tbsp"},
+      {n: "Rice Vinegar", a: "1 tbsp"},
+      {n: "Mirin", a: "2 tbsp"},
+      {n: "Garlic", a: "2 cloves"},
+      {n: "Sesame Seeds", a: "1 tbsp"},
+      {n: "Green Onions", a: "3"},
+      {n: "Rice", a: "3 cups cooked"},
+      {n: "Cucumber", a: "1"},
+      {n: "Sesame Oil", a: "1 tsp"}
+    ],
+    instructions: "Mix soy sauce, honey, rice vinegar, mirin, and minced garlic for teriyaki glaze. Marinate salmon 15 minutes. Sear salmon in lightly oiled pan over medium-high heat 3 minutes per side, basting with glaze. Thinly slice cucumber and toss with rice vinegar and sesame oil. Serve salmon over bowls of rice, topped with glazed pan juices, sesame seeds, green onions, and cucumber."
+  },
+  {
+    name: "Agedashi Tofu",
+    category: "Japanese",
+    type: "Appetizer",
+    servings: 4,
+    time: "25 min",
+    ingredients: [
+      {n: "Tofu", a: "14 oz firm"},
+      {n: "Cornstarch", a: "1/2 cup"},
+      {n: "Dashi Stock", a: "1 cup"},
+      {n: "Soy Sauce", a: "2 tbsp"},
+      {n: "Mirin", a: "2 tbsp"},
+      {n: "Vegetable Oil", a: "2 cups for frying"},
+      {n: "Ginger", a: "1 tsp grated"},
+      {n: "Green Onions", a: "3"},
+      {n: "Daikon Radish", a: "1/4 cup grated"},
+      "Sesame Seeds"
+    ],
+    instructions: "Press tofu between paper towels 15 minutes to remove excess moisture. Cut into 2-inch cubes. Dredge each piece in cornstarch, shaking off excess. Deep-fry in vegetable oil at 350°F until light golden and crispy, about 3 minutes. Meanwhile, simmer dashi, soy sauce, and mirin together for the tsuyu broth. Serve tofu in shallow bowls, pour warm broth around. Top with grated daikon, ginger, green onions, and sesame seeds."
+  },
+  {
+    name: "Oyakodon",
+    category: "Japanese",
+    type: "Main",
+    servings: 4,
+    time: "25 min",
+    ingredients: [
+      {n: "Chicken Thighs", a: "1.5 lbs boneless"},
+      {n: "Eggs", a: "6"},
+      {n: "Onion", a: "1 large"},
+      {n: "Soy Sauce", a: "3 tbsp"},
+      {n: "Mirin", a: "3 tbsp"},
+      {n: "Dashi Stock", a: "1 cup"},
+      {n: "Sugar", a: "1 tbsp"},
+      {n: "Rice", a: "4 cups cooked"},
+      {n: "Green Onions", a: "3"}
+    ],
+    instructions: "Slice chicken thighs into bite-size pieces. Thinly slice onion. Combine dashi, soy sauce, mirin, and sugar in a wide skillet and bring to a simmer. Add onion and cook 3 minutes until softened. Add chicken and simmer 5 minutes until cooked through. Beat eggs lightly, pour over the chicken in a circular motion. Cover and cook on low heat 1-2 minutes until eggs are just set but still silky. Slide over bowls of steamed rice and garnish with green onions."
+  },
+  {
+    name: "Japanese Cucumber Sunomono",
+    category: "Japanese",
+    type: "Side",
+    servings: 4,
+    time: "15 min",
+    ingredients: [
+      {n: "Cucumber", a: "2 medium"},
+      {n: "Rice Vinegar", a: "3 tbsp"},
+      {n: "Sugar", a: "1 tbsp"},
+      {n: "Soy Sauce", a: "1 tsp"},
+      {n: "Sesame Oil", a: "1 tsp"},
+      {n: "Sesame Seeds", a: "1 tbsp"},
+      {n: "Ginger", a: "1 tsp grated"},
+      "Salt"
+    ],
+    instructions: "Thinly slice cucumbers. Sprinkle with 1/2 tsp salt and let sit 10 minutes to draw out water. Squeeze out excess moisture. Whisk together rice vinegar, sugar, soy sauce, and sesame oil until sugar dissolves. Toss cucumbers with dressing and grated ginger. Chill 10 minutes. Serve garnished with sesame seeds. This refreshing vinegared salad pairs perfectly with any Japanese main dish."
+  },
+
+  // ========== KOREAN ==========
+  {
+    name: "Bibimbap",
+    category: "Korean",
+    type: "Main",
+    servings: 4,
+    time: "45 min",
+    ingredients: [
+      {n: "Rice", a: "3 cups cooked"},
+      {n: "Ground Beef", a: "3/4 lb"},
+      {n: "Spinach", a: "2 cups"},
+      {n: "Carrots", a: "2 julienned"},
+      {n: "Mushrooms", a: "1 cup sliced"},
+      {n: "Bean Sprouts", a: "1 cup"},
+      {n: "Eggs", a: "4"},
+      {n: "Soy Sauce", a: "3 tbsp"},
+      {n: "Sesame Oil", a: "2 tbsp"},
+      {n: "Gochujang", a: "3 tbsp"},
+      {n: "Garlic", a: "3 cloves"},
+      {n: "Brown Sugar", a: "1 tsp"},
+      {n: "Sesame Seeds", a: "1 tbsp"}
+    ],
+    instructions: "Season beef with soy sauce, garlic, sesame oil, and brown sugar; cook until browned. Separately blanch spinach, sauté carrots, sauté mushrooms, and blanch bean sprouts; season each with a little sesame oil and soy sauce. Fry eggs sunny-side up. Divide rice into bowls, arrange each topping in sections over rice. Add fried egg on top. Mix gochujang with a little sesame oil and water for sauce. Drizzle sauce over bowls, garnish with sesame seeds, and mix everything together before eating."
+  },
+  {
+    name: "Bulgogi",
+    category: "Korean",
+    type: "Main",
+    servings: 4,
+    time: "30 min",
+    ingredients: [
+      {n: "Flank Steak", a: "1.5 lbs"},
+      {n: "Soy Sauce", a: "1/4 cup"},
+      {n: "Brown Sugar", a: "3 tbsp"},
+      {n: "Sesame Oil", a: "2 tbsp"},
+      {n: "Garlic", a: "5 cloves"},
+      {n: "Ginger", a: "1 tbsp"},
+      {n: "Pear", a: "1/2 grated"},
+      {n: "Green Onions", a: "4"},
+      {n: "Sesame Seeds", a: "1 tbsp"},
+      {n: "Vegetable Oil", a: "1 tbsp"},
+      {n: "Rice", a: "for serving"}
+    ],
+    instructions: "Freeze steak 30 minutes for easier slicing, then cut paper-thin against the grain. Whisk soy sauce, brown sugar, sesame oil, minced garlic, ginger, and grated pear (natural tenderizer). Marinate beef at least 30 minutes or up to overnight. Cook in batches in a very hot, lightly oiled pan or grill, 1-2 minutes per side. Don't crowd the pan. Serve over rice garnished with green onions and sesame seeds. Wrap in lettuce leaves if desired."
+  },
+  {
+    name: "Doenjang Jjigae",
+    category: "Korean",
+    type: "Soup",
+    servings: 4,
+    time: "30 min",
+    ingredients: [
+      {n: "Tofu", a: "14 oz firm"},
+      {n: "Pork Shoulder", a: "1/2 lb"},
+      {n: "Zucchini", a: "1 medium"},
+      {n: "Mushrooms", a: "1 cup"},
+      {n: "Onion", a: "1"},
+      {n: "Garlic", a: "4 cloves"},
+      {n: "Korean Fermented Soybean Paste", a: "3 tbsp"},
+      {n: "Gochujang", a: "1 tbsp"},
+      {n: "Dashi Stock", a: "4 cups"},
+      {n: "Green Onions", a: "3"},
+      {n: "Sesame Oil", a: "1 tsp"}
+    ],
+    instructions: "Bring dashi to a boil. Dissolve Korean fermented soybean paste and gochujang in broth. Add sliced pork and cook 5 minutes. Add diced onion, zucchini, and mushrooms; simmer 8 minutes. Add cubed tofu and minced garlic, simmer 5 more minutes. Adjust saltiness with more paste if needed. Finish with sesame oil. Serve in hot stone bowls if available, garnished with sliced green onions. Accompanies steamed rice."
+  },
+  {
+    name: "Japchae",
+    category: "Korean",
+    type: "Side",
+    servings: 4,
+    time: "35 min",
+    ingredients: [
+      {n: "Glass Noodles", a: "8 oz"},
+      {n: "Flank Steak", a: "1/2 lb"},
+      {n: "Spinach", a: "2 cups"},
+      {n: "Carrots", a: "2 julienned"},
+      {n: "Mushrooms", a: "1 cup sliced"},
+      {n: "Onion", a: "1"},
+      {n: "Bell Pepper", a: "1"},
+      {n: "Soy Sauce", a: "4 tbsp"},
+      {n: "Sesame Oil", a: "2 tbsp"},
+      {n: "Brown Sugar", a: "2 tbsp"},
+      {n: "Garlic", a: "3 cloves"},
+      {n: "Sesame Seeds", a: "1 tbsp"}
+    ],
+    instructions: "Soak glass noodles in hot water 15 minutes, drain. Slice steak thin and marinate in half the soy sauce, brown sugar, garlic, and sesame oil. Blanch spinach, squeeze dry. Stir-fry each vegetable separately: carrots, mushrooms, bell pepper, onion. Stir-fry marinated beef until cooked. In large wok, combine all ingredients including noodles. Add remaining soy sauce, brown sugar, and sesame oil. Toss over high heat until evenly coated and noodles are translucent. Garnish with sesame seeds."
+  },
+  {
+    name: "Korean Fried Chicken",
+    category: "Korean",
+    type: "Main",
+    servings: 4,
+    time: "40 min",
+    ingredients: [
+      {n: "Chicken Thighs", a: "2 lbs bone-in"},
+      {n: "Cornstarch", a: "1/2 cup"},
+      {n: "Flour", a: "1/4 cup"},
+      {n: "Gochujang", a: "2 tbsp"},
+      {n: "Soy Sauce", a: "2 tbsp"},
+      {n: "Honey", a: "2 tbsp"},
+      {n: "Garlic", a: "4 cloves"},
+      {n: "Ginger", a: "1 tbsp"},
+      {n: "Sesame Seeds", a: "1 tbsp"},
+      {n: "Green Onions", a: "3"},
+      {n: "Vegetable Oil", a: "for frying"},
+      "Salt",
+      "Black Pepper"
+    ],
+    instructions: "Season chicken with salt and pepper. Mix cornstarch and flour, dredge chicken pieces thoroughly. Double-fry: first fry at 325°F for 12 minutes, rest 5 minutes, then fry again at 375°F for 5 minutes until extra crispy. Meanwhile, make sauce: combine gochujang, soy sauce, honey, minced garlic, and ginger in a pan, simmer 2 minutes until glossy. Toss fried chicken in sauce to coat. Garnish with sesame seeds and sliced green onions. Serve immediately."
+  },
+
+  // ========== THAI ==========
+  {
+    name: "Green Curry",
+    category: "Thai",
+    type: "Main",
+    servings: 4,
+    time: "35 min",
+    ingredients: [
+      {n: "Chicken Thighs", a: "1.5 lbs"},
+      {n: "Coconut Milk", a: "2 cans (13.5 oz each)"},
+      {n: "Thai Green Curry Paste", a: "3 tbsp"},
+      {n: "Zucchini", a: "2"},
+      {n: "Bell Pepper", a: "1"},
+      {n: "Fish Sauce", a: "2 tbsp"},
+      {n: "Brown Sugar", a: "1 tsp"},
+      {n: "Lemongrass", a: "2 stalks"},
+      {n: "Ginger", a: "1 tbsp"},
+      {n: "Fresh Basil", a: "1/2 cup"},
+      {n: "Lime", a: "1"},
+      {n: "Rice", a: "for serving"},
+      {n: "Vegetable Oil", a: "1 tbsp"}
+    ],
+    instructions: "Heat oil in wok, fry green curry paste 1 minute until fragrant. Add half the coconut milk, stir until oil separates. Add chicken pieces and cook 5 minutes. Add remaining coconut milk, bruised lemongrass, ginger, zucchini, and bell pepper. Simmer 12 minutes. Season with fish sauce and brown sugar. Discard lemongrass. Finish with fresh basil and a squeeze of lime. Serve over jasmine rice."
+  },
+  {
+    name: "Tom Yum Soup",
+    category: "Thai",
+    type: "Soup",
+    servings: 4,
+    time: "30 min",
+    ingredients: [
+      {n: "Shrimp", a: "1 lb"},
+      {n: "Mushrooms", a: "2 cups"},
+      {n: "Lemongrass", a: "3 stalks"},
+      {n: "Ginger", a: "2 tbsp sliced"},
+      {n: "Fish Sauce", a: "3 tbsp"},
+      {n: "Lime", a: "3"},
+      {n: "Tomatoes", a: "2 medium"},
+      {n: "Cilantro", a: "1/2 cup"},
+      {n: "Green Onions", a: "3"},
+      {n: "Sriracha", a: "2 tsp"},
+      {n: "Thai Chili Peppers", a: "3-4"},
+      {n: "Vegetable Oil", a: "1 tbsp"}
+    ],
+    instructions: "Bruise lemongrass stalks and slice ginger into coins. Simmer in 5 cups water 10 minutes to make aromatic broth. Add quartered mushrooms and tomatoes, simmer 5 minutes. Add shrimp and cook until pink, 2-3 minutes. Season with fish sauce, lime juice, and sriracha. Remove lemongrass and ginger. Ladle into bowls and garnish with fresh cilantro, green onions, and sliced Thai chilies. Serve immediately."
+  },
+  {
+    name: "Thai Basil Stir-Fry",
+    category: "Thai",
+    type: "Main",
+    servings: 4,
+    time: "20 min",
+    ingredients: [
+      {n: "Ground Beef", a: "1.5 lbs"},
+      {n: "Fresh Basil", a: "1 cup packed"},
+      {n: "Garlic", a: "6 cloves"},
+      {n: "Bell Pepper", a: "1"},
+      {n: "Fish Sauce", a: "2 tbsp"},
+      {n: "Soy Sauce", a: "1 tbsp"},
+      {n: "Brown Sugar", a: "1 tsp"},
+      {n: "Thai Chili Peppers", a: "4"},
+      {n: "Eggs", a: "4"},
+      {n: "Vegetable Oil", a: "3 tbsp"},
+      {n: "Rice", a: "for serving"}
+    ],
+    instructions: "Heat oil over high heat. Fry sliced garlic and Thai chilies 30 seconds. Add ground beef and cook, breaking up, until browned. Add sliced bell pepper, cook 2 minutes. Season with fish sauce, soy sauce, and brown sugar. Stir in fresh basil off heat until wilted. Fry eggs separately until edges are crispy. Serve beef over jasmine rice, topped with a crispy fried egg."
+  },
+  {
+    name: "Mango Sticky Rice",
+    category: "Thai",
+    type: "Dessert",
+    servings: 4,
+    time: "45 min",
+    ingredients: [
+      {n: "Glutinous Rice", a: "2 cups"},
+      {n: "Coconut Milk", a: "1 can (13.5 oz)"},
+      {n: "Ripe Mangoes", a: "3 large"},
+      {n: "Sugar", a: "1/3 cup"},
+      {n: "Sesame Seeds", a: "1 tsp"},
+      "Salt"
+    ],
+    instructions: "Soak glutinous rice in water 4 hours or overnight. Steam in a bamboo steamer over boiling water 20-25 minutes until tender. Meanwhile, heat coconut milk with sugar and a pinch of salt until just dissolved; do not boil. Reserve 1/3 cup coconut sauce for topping. Mix remaining sauce into hot sticky rice and let absorb 20 minutes. Peel and slice mangoes. Serve sticky rice portions with fresh mango slices. Drizzle reserved coconut sauce over top and sprinkle with sesame seeds."
+  },
+  {
+    name: "Larb Gai",
+    category: "Thai",
+    type: "Main",
+    servings: 4,
+    time: "25 min",
+    ingredients: [
+      {n: "Ground Beef", a: "1.5 lbs"},
+      {n: "Shallots", a: "4"},
+      {n: "Lemongrass", a: "1 stalk"},
+      {n: "Fresh Basil", a: "1/2 cup"},
+      {n: "Cilantro", a: "1/2 cup"},
+      {n: "Fish Sauce", a: "3 tbsp"},
+      {n: "Lime", a: "3"},
+      {n: "Red Pepper Flakes", a: "1 tbsp"},
+      {n: "Toasted Rice Powder", a: "2 tbsp"},
+      {n: "Green Onions", a: "4"},
+      {n: "Vegetable Oil", a: "1 tbsp"}
+    ],
+    instructions: "Cook ground beef in lightly oiled pan over medium heat until just cooked through; don't brown too much. Transfer to bowl and let cool slightly. Toast uncooked rice in dry pan until golden, then grind to powder. Finely slice shallots and lemongrass. Toss warm meat with fish sauce, lime juice, sliced shallots, red pepper flakes, and toasted rice powder. Fold in fresh basil, cilantro, and green onions. Adjust seasoning with more fish sauce and lime. Serve warm or at room temperature with sticky rice."
+  },
+
+  // ========== VIETNAMESE ==========
+  {
+    name: "Pho Bo",
+    category: "Vietnamese",
+    type: "Soup",
+    servings: 4,
+    time: "60 min",
+    ingredients: [
+      {n: "Flank Steak", a: "1 lb thinly sliced"},
+      {n: "Rice Noodles", a: "12 oz"},
+      {n: "Onion", a: "1 large"},
+      {n: "Ginger", a: "3 inches"},
+      {n: "Star Anise", a: "4 whole"},
+      {n: "Fish Sauce", a: "3 tbsp"},
+      {n: "Beef Broth", a: "8 cups"},
+      {n: "Bean Sprouts", a: "2 cups"},
+      {n: "Fresh Basil", a: "1 cup"},
+      {n: "Lime", a: "2"},
+      {n: "Green Onions", a: "4"},
+      {n: "Cilantro", a: "1/2 cup"},
+      {n: "Sriracha", a: "to taste"}
+    ],
+    instructions: "Char onion and ginger directly over flame or under broiler until blackened; rinse. Simmer beef broth with charred onion, ginger, star anise, and fish sauce 30 minutes. Strain broth and return to heat. Soak rice noodles in hot water until pliable. Freeze steak 20 minutes then slice paper-thin. Divide noodles into bowls, place raw beef slices on top. Ladle boiling broth over beef to cook it. Serve with bean sprouts, Thai basil, lime wedges, cilantro, green onions, and sriracha on the side."
+  },
+  {
+    name: "Bun Bo Hue",
+    category: "Vietnamese",
+    type: "Soup",
+    servings: 4,
+    time: "50 min",
+    ingredients: [
+      {n: "Pork Shoulder", a: "1 lb"},
+      {n: "Shrimp", a: "1/2 lb"},
+      {n: "Rice Noodles", a: "12 oz thick"},
+      {n: "Lemongrass", a: "3 stalks"},
+      {n: "Fish Sauce", a: "2 tbsp"},
+      {n: "Shrimp Paste", a: "1 tbsp"},
+      {n: "Korean Chili Flakes", a: "2 tbsp"},
+      {n: "Garlic", a: "4 cloves"},
+      {n: "Onion", a: "1"},
+      {n: "Pork Broth", a: "6 cups"},
+      {n: "Bean Sprouts", a: "1 cup"},
+      {n: "Cilantro", a: "1/2 cup"},
+      {n: "Lime", a: "2"},
+      {n: "Green Onions", a: "4"}
+    ],
+    instructions: "Simmer pork broth with bruised lemongrass, halved onion, and garlic 20 minutes. Add pork shoulder and cook until tender, about 25 minutes. Remove pork and slice thin. Make chili oil by frying Korean chili flakes in 2 tbsp oil. Stir shrimp paste and chili oil into broth. Add shrimp and cook 2 minutes. Season with fish sauce. Cook rice noodles per package. Assemble bowls: noodles, pork slices, shrimp, hot broth. Serve with bean sprouts, cilantro, green onions, and lime."
+  },
+  {
+    name: "Vietnamese Spring Rolls",
+    category: "Vietnamese",
+    type: "Appetizer",
+    servings: 4,
+    time: "30 min",
+    ingredients: [
+      {n: "Shrimp", a: "1/2 lb cooked"},
+      {n: "Rice Paper Wrappers", a: "16 sheets"},
+      {n: "Rice Noodles", a: "4 oz"},
+      {n: "Carrots", a: "2 julienned"},
+      {n: "Cucumber", a: "1 julienned"},
+      {n: "Bean Sprouts", a: "1 cup"},
+      {n: "Fresh Basil", a: "1 cup"},
+      {n: "Cilantro", a: "1/2 cup"},
+      {n: "Fish Sauce", a: "2 tbsp"},
+      {n: "Lime", a: "2"},
+      {n: "Peanuts", a: "1/3 cup crushed"},
+      {n: "Garlic", a: "2 cloves"},
+      {n: "Honey", a: "1 tsp"}
+    ],
+    instructions: "Cook rice noodles per package, rinse under cold water. Slice cooked shrimp in half lengthwise. Prepare all fillings. Make peanut dipping sauce: mix crushed peanuts, fish sauce, lime juice, minced garlic, honey, and 2 tbsp warm water. Dip each rice paper in warm water 10-15 seconds until pliable. Lay flat, place shrimp near the bottom, top with noodles, vegetables, and herbs. Fold sides in, roll tightly from bottom. Serve with peanut dipping sauce."
+  },
+  {
+    name: "Bun Cha",
+    category: "Vietnamese",
+    type: "Main",
+    servings: 4,
+    time: "35 min",
+    ingredients: [
+      {n: "Pork Shoulder", a: "1 lb ground"},
+      {n: "Rice Noodles", a: "8 oz"},
+      {n: "Fish Sauce", a: "3 tbsp"},
+      {n: "Sugar", a: "2 tbsp"},
+      {n: "Garlic", a: "4 cloves"},
+      {n: "Shallots", a: "3"},
+      {n: "Rice Vinegar", a: "2 tbsp"},
+      {n: "Lime", a: "2"},
+      {n: "Cilantro", a: "1 cup"},
+      {n: "Fresh Basil", a: "1 cup"},
+      {n: "Bean Sprouts", a: "1 cup"},
+      {n: "Carrots", a: "1 julienned"},
+      {n: "Red Pepper Flakes", a: "1/2 tsp"}
+    ],
+    instructions: "Mix ground pork with 1 tbsp fish sauce, 1 tsp sugar, minced shallots, and garlic. Form into small patties and grill or pan-fry until charred and cooked through, about 3 minutes per side. Make dipping broth: combine remaining fish sauce, sugar, rice vinegar, lime juice, red pepper flakes, and 1/2 cup warm water. Cook rice noodles, rinse cold. Serve patties in dipping broth bowls alongside plates of noodles and fresh herb platters with cilantro, basil, bean sprouts, and carrots. Dip noodles and herbs into the broth."
+  },
+  {
+    name: "Vietnamese Caramel Ginger Fish",
+    category: "Vietnamese",
+    type: "Main",
+    servings: 4,
+    time: "30 min",
+    ingredients: [
+      {n: "White Fish Fillets", a: "1.5 lbs"},
+      {n: "Brown Sugar", a: "1/4 cup"},
+      {n: "Fish Sauce", a: "3 tbsp"},
+      {n: "Ginger", a: "2 tbsp julienned"},
+      {n: "Garlic", a: "4 cloves"},
+      {n: "Green Onions", a: "4"},
+      {n: "Black Pepper", a: "1 tsp"},
+      {n: "Vegetable Oil", a: "2 tbsp"},
+      {n: "Cilantro", a: "1/4 cup"},
+      {n: "Rice", a: "for serving"}
+    ],
+    instructions: "Make caramel: heat brown sugar in dry pan over medium heat until it melts and turns amber, swirling pan. Carefully add 2 tbsp water, then fish sauce. Add garlic and ginger, cook 1 minute. Season fish fillets with black pepper. Add to caramel sauce and cook over medium-low heat 4-5 minutes per side, basting constantly. Sauce will thicken and coat fish. Scatter green onions in the last minute. Serve over steamed rice, spooning caramel sauce over everything. Garnish with fresh cilantro."
+  },
+
+  // ========== CHINESE ==========
+  {
+    name: "Mapo Tofu",
+    category: "Chinese",
+    type: "Main",
+    servings: 4,
+    time: "25 min",
+    ingredients: [
+      {n: "Tofu", a: "14 oz soft"},
+      {n: "Ground Beef", a: "1/2 lb"},
+      {n: "Doubanjiang", a: "2 tbsp"},
+      {n: "Soy Sauce", a: "1 tbsp"},
+      {n: "Sesame Oil", a: "1 tsp"},
+      {n: "Garlic", a: "4 cloves"},
+      {n: "Ginger", a: "1 tbsp"},
+      {n: "Green Onions", a: "4"},
+      {n: "Cornstarch", a: "1 tbsp"},
+      {n: "Vegetable Oil", a: "2 tbsp"},
+      {n: "Sichuan Peppercorns", a: "1 tsp"},
+      {n: "Chicken Broth", a: "1 cup"},
+      {n: "Rice", a: "for serving"}
+    ],
+    instructions: "Toast and grind Sichuan peppercorns. Cut tofu into 1-inch cubes, simmer in salted water 3 minutes, drain gently. Stir-fry ground beef in oil until cooked, push aside. Add doubanjiang, garlic, and ginger, fry 1 minute until fragrant and oil turns red. Add chicken broth, bring to simmer. Gently add tofu. Season with soy sauce. Mix cornstarch with 2 tbsp water, drizzle in to thicken. Finish with sesame oil and ground Sichuan peppercorns. Serve over rice garnished with green onions."
+  },
+  {
+    name: "Dan Dan Noodles",
+    category: "Chinese",
+    type: "Main",
+    servings: 4,
+    time: "30 min",
+    ingredients: [
+      {n: "Egg Noodles", a: "12 oz"},
+      {n: "Ground Beef", a: "1/2 lb"},
+      {n: "Peanuts", a: "1/3 cup crushed"},
+      {n: "Soy Sauce", a: "3 tbsp"},
+      {n: "Sesame Oil", a: "2 tbsp"},
+      {n: "Rice Vinegar", a: "1 tbsp"},
+      {n: "Garlic", a: "3 cloves"},
+      {n: "Ginger", a: "1 tbsp"},
+      {n: "Doubanjiang", a: "1 tbsp"},
+      {n: "Tahini Paste", a: "3 tbsp"},
+      {n: "Green Onions", a: "4"},
+      {n: "Spinach", a: "2 cups"},
+      {n: "Red Pepper Flakes", a: "1 tsp"}
+    ],
+    instructions: "Cook noodles per package, reserving 1/2 cup pasta water. Stir-fry ground beef with garlic, ginger, and doubanjiang until browned and fragrant. Make sauce: whisk tahini, soy sauce, sesame oil, rice vinegar, red pepper flakes, and a splash of pasta water until smooth. Blanch spinach in the pasta water. Divide noodles into bowls, pour sauce over, top with beef, spinach, green onions, and crushed peanuts. Toss before eating. Add more pasta water to loosen if needed."
+  },
+  {
+    name: "Char Siu Pork",
+    category: "Chinese",
+    type: "Main",
+    servings: 4,
+    time: "60 min",
+    ingredients: [
+      {n: "Pork Shoulder", a: "2 lbs"},
+      {n: "Soy Sauce", a: "3 tbsp"},
+      {n: "Honey", a: "3 tbsp"},
+      {n: "Brown Sugar", a: "2 tbsp"},
+      {n: "Rice Vinegar", a: "1 tbsp"},
+      {n: "Sesame Oil", a: "1 tbsp"},
+      {n: "Garlic", a: "3 cloves"},
+      {n: "Ginger", a: "1 tbsp"},
+      {n: "Five-Spice Powder", a: "1 tsp"},
+      {n: "Red Food Coloring", a: "optional"},
+      {n: "Rice", a: "for serving"}
+    ],
+    instructions: "Cut pork shoulder into 2-inch thick strips. Mix soy sauce, honey, brown sugar, rice vinegar, sesame oil, garlic, ginger, and five-spice powder. Marinate pork at least 2 hours or overnight. Roast at 400°F on a rack over a foil-lined baking sheet for 25 minutes. Brush with honey glaze, broil 3-5 minutes until edges char and glaze is sticky. Rest 10 minutes. Slice thin and serve over rice with drizzled pan juices."
+  },
+  {
+    name: "Hot and Sour Soup",
+    category: "Chinese",
+    type: "Soup",
+    servings: 4,
+    time: "25 min",
+    ingredients: [
+      {n: "Tofu", a: "8 oz firm"},
+      {n: "Mushrooms", a: "1 cup sliced"},
+      {n: "Carrots", a: "1 julienned"},
+      {n: "Eggs", a: "2"},
+      {n: "Soy Sauce", a: "3 tbsp"},
+      {n: "Rice Vinegar", a: "3 tbsp"},
+      {n: "Cornstarch", a: "3 tbsp"},
+      {n: "Sesame Oil", a: "1 tsp"},
+      {n: "White Pepper", a: "1 tsp"},
+      {n: "Bamboo Shoots", a: "1/2 cup"},
+      {n: "Chicken Broth", a: "6 cups"},
+      {n: "Green Onions", a: "3"},
+      "Sriracha"
+    ],
+    instructions: "Bring chicken broth to a boil. Add mushrooms, carrots, bamboo shoots, and julienned tofu; simmer 5 minutes. Add soy sauce, rice vinegar, and white pepper. Mix cornstarch with 4 tbsp cold water, pour slowly into simmering soup while stirring to thicken. Beat eggs and drizzle in slowly while stirring in one direction to create egg ribbons. Finish with sesame oil. Serve garnished with green onions and a dash of sriracha for extra heat."
   }
 ];
 
