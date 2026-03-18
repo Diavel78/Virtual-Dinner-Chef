@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Virtual Dinner Chef</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Login Screen -->
+<div id="login-screen" class="login-screen">
+  <div class="login-card">
+    <h1 class="login-logo">🍽️ Virtual Dinner Chef</h1>
+    <p class="login-tagline">Your personal dinner companion</p>
+    <div class="login-form">
+      <label for="login-username">Enter your name to get started</label>
+      <input type="text" id="login-username" placeholder="Your name..." maxlength="30" autocomplete="off">
+      <button class="btn btn-primary login-btn" id="login-btn">Let's Cook!</button>
+    </div>
+    <p class="login-hint">Your kitchen, ratings, and recipes are saved to your name — use the same name on any device.</p>
+  </div>
+</div>
+
+<!-- App Container (hidden until login) -->
+<div id="app-container" style="display:none;">
+
+<!-- Header -->
+<header class="app-header">
+  <div class="header-content">
+    <div class="header-top">
+      <h1 class="logo">🍽️ Virtual Dinner Chef</h1>
+      <button class="btn btn-sm" id="logout-btn" title="Switch user">Sign Out</button>
+    </div>
+    <p class="tagline">Welcome, <span id="user-display"></span></p>
+  </div>
+</header>
+
+<!-- Navigation -->
+<nav class="main-nav">
+  <button class="nav-btn active" data-tab="suggest">What Can I Cook?</button>
+  <button class="nav-btn" data-tab="pantry">My Kitchen</button>
+  <button class="nav-btn" data-tab="search">Search Recipes</button>
+  <button class="nav-btn" data-tab="favorites">Favorites</button>
+  <button class="nav-btn" data-tab="add">Add Recipe</button>
+</nav>
+
+<!-- Tab: What Can I Cook -->
+<section id="tab-suggest" class="tab-content active">
+  <div class="tab-header">
+    <h2>Recipes You Can Make</h2>
+    <p class="tab-desc">Based on what's in your kitchen</p>
+    <div class="filter-row">
+      <label class="filter-label">Show:</label>
+      <select id="suggest-filter">
+        <option value="exact">Perfect Matches</option>
+        <option value="missing1">Missing 1 Ingredient</option>
+        <option value="missing2">Missing 1-2 Ingredients</option>
+        <option value="missing3">Missing 1-3 Ingredients</option>
+        <option value="all">All Above</option>
+      </select>
+      <label class="filter-label">Cuisine:</label>
+      <select id="suggest-category">
+        <option value="all">All Cuisines</option>
+      </select>
+      <label class="filter-label">Type:</label>
+      <select id="suggest-type">
+        <option value="all">All Types</option>
+      </select>
+    </div>
+  </div>
+  <div id="suggest-results" class="recipe-grid"></div>
+  <div id="suggest-empty" class="empty-state" style="display:none;">
+    <p>No matches found. Try adding more items to your kitchen or expanding the filter.</p>
+  </div>
+</section>
+
+<!-- Tab: Kitchen/Pantry -->
+<section id="tab-pantry" class="tab-content">
+  <div class="tab-header">
+    <h2>My Kitchen</h2>
+    <p class="tab-desc">Check off what you have at home</p>
+    <div class="pantry-stats" id="pantry-stats"></div>
+    <div class="pantry-actions">
+      <button class="btn btn-sm" id="pantry-clear">Clear All</button>
+      <button class="btn btn-sm" id="pantry-expand">Expand All</button>
+      <button class="btn btn-sm" id="pantry-collapse">Collapse All</button>
+    </div>
+  </div>
+  <div id="pantry-container"></div>
+</section>
+
+<!-- Tab: Search -->
+<section id="tab-search" class="tab-content">
+  <div class="tab-header">
+    <h2>Search Recipes</h2>
+    <p class="tab-desc">Find a recipe by name and see what you need</p>
+    <div class="search-bar">
+      <input type="text" id="search-input" placeholder="Type a recipe name..." autocomplete="off">
+      <button class="btn" id="search-clear-btn">Clear</button>
+    </div>
+  </div>
+  <div id="search-results" class="recipe-grid"></div>
+</section>
+
+<!-- Tab: Favorites -->
+<section id="tab-favorites" class="tab-content">
+  <div class="tab-header">
+    <h2>My Favorites</h2>
+    <p class="tab-desc">Your liked and disliked recipes</p>
+    <div class="filter-row">
+      <label class="filter-label">Show:</label>
+      <select id="fav-filter">
+        <option value="liked">Liked</option>
+        <option value="disliked">Disliked</option>
+        <option value="all">All Rated</option>
+      </select>
+    </div>
+  </div>
+  <div id="fav-results" class="recipe-grid"></div>
+  <div id="fav-empty" class="empty-state" style="display:none;">
+    <p>No rated recipes yet. Use the thumbs up/down buttons on any recipe to rate it.</p>
+  </div>
+</section>
+
+<!-- Tab: Add Recipe -->
+<section id="tab-add" class="tab-content">
+  <div class="tab-header">
+    <h2>Add a Recipe</h2>
+    <p class="tab-desc">Create your own custom recipe</p>
+  </div>
+  <form id="add-form" class="add-form">
+    <div class="form-group">
+      <label for="add-name">Recipe Name *</label>
+      <input type="text" id="add-name" required placeholder="e.g. Grandma's Lasagna">
+    </div>
+    <div class="form-row">
+      <div class="form-group">
+        <label for="add-category">Cuisine</label>
+        <input type="text" id="add-category" placeholder="e.g. Italian, Mexican, Asian">
+      </div>
+      <div class="form-group">
+        <label for="add-type">Meal Type</label>
+        <input type="text" id="add-type" placeholder="e.g. Main, Side, Appetizer, Dessert">
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group">
+        <label for="add-servings">Servings</label>
+        <input type="number" id="add-servings" placeholder="4" min="1" max="50">
+      </div>
+      <div class="form-group">
+        <label for="add-time">Cook Time</label>
+        <input type="text" id="add-time" placeholder="e.g. 45 min, 2 hours">
+      </div>
+    </div>
+    <div class="form-group">
+      <label>Ingredients *</label>
+      <div id="add-ingredients">
+        <div class="ingredient-row">
+          <input type="text" class="ingredient-input" placeholder="Ingredient name" list="all-ingredients-list">
+          <button type="button" class="btn btn-sm btn-remove" title="Remove">✕</button>
+        </div>
+      </div>
+      <button type="button" class="btn btn-sm" id="add-ingredient-btn">+ Add Ingredient</button>
+      <datalist id="all-ingredients-list"></datalist>
+    </div>
+    <div class="form-group">
+      <label for="add-instructions">Instructions *</label>
+      <textarea id="add-instructions" required rows="5" placeholder="Step by step instructions..."></textarea>
+    </div>
+    <div class="form-actions">
+      <button type="submit" class="btn btn-primary">Save Recipe</button>
+      <button type="reset" class="btn">Clear Form</button>
+    </div>
+  </form>
+  <div id="custom-recipes-section" style="display:none;">
+    <h3>Your Custom Recipes</h3>
+    <div id="custom-recipes-list" class="recipe-grid"></div>
+  </div>
+</section>
+
+</div><!-- /app-container -->
+
+<!-- Recipe Detail Modal -->
+<div id="recipe-modal" class="modal" style="display:none;">
+  <div class="modal-overlay"></div>
+  <div class="modal-content">
+    <button class="modal-close">&times;</button>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+<!-- Toast -->
+<div id="toast" class="toast"></div>
+
+<script src="recipes.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
